@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form>
+      <div>
+        <label for="text2">Текст</label>
+        <input type="text" id="text2" value="типа дома сиди" />
+      </div>
+      <div>
+        <label for="mam2">mail</label>
+        <input type="email" id="mam2" />
+      </div>
+      <div>
+        <label for="password">Пароль</label>
+        <input type="password" id="password" />
+      </div>
+      <div>
+        <label for="week1">Номер</label>
+        <input type="number" id="week1" placeholder="+380977651992" />
+      </div>
+      <div>
+        <label for="tel33">Телефон</label>
+        <input type="range" min="0" max="100" step="20" id="tel33" />
+      </div>
+      <div>
+        <label for="password">Пароль</label>
+        <input type="date" id="password" />
+      </div>
+      <div>
+        <label for="color1">количество работ</label>
+        <input type="radio" name="work">1
+        <input type="radio" name="work">2
+        <input type="radio" name="work">3
+        <input type="radio"name="work">+10
+      </div>
+      <div>
+        <label for="message">Сообщение</label>
+        <br />
+        <textarea id="message" cols="15" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="sex">Ваш ПОЛ</label>
+        <Select>
+            <option value="male">мужчина </option>
+            <option value="female" selected  >шмара </option>
+            <option value="other">женщина </option>
+        </Select>
+        <div>
+            <label for="color1">Любимая еда</label>
+            <input type="checkbox" name="work">картошка
+            <input type="checkbox" name="work">фри
+            <input type="checkbox" name="work">кола
+            <input type="checkbox"name="work">павас
+          </div>
+<input type="submit" value="отправить форму">
+<button>отправить форму</button>
+    </form>
+  </body>
+</html>
